@@ -33,6 +33,7 @@ if [ "${UbuntuCheck}" ] && [ "${UbuntuCheck}" -lt "16" ];then
 fi
 
 cd ~
+
 setup_path="/www"
 python_bin=$setup_path/server/panel/pyenv/bin/python
 cpu_cpunt=$(cat /proc/cpuinfo|grep processor|wc -l)
